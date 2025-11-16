@@ -4,13 +4,13 @@ RELEASE_FLAGS = -O3
 FLAGS = $(RELEASE_FLAGS)
 
 preprocess:
-	g++ $(FLAGS) -E Functions2.cc > Temp.cc
+	g++ $(FLAGS) -E Functions2.cpp > Temp.cc
 
 assemble:
-	g++ $(FLAGS) -S Functions2.cc
+	g++ $(FLAGS) -S Functions2.cpp
 
 compile:
-	g++ $(FLAGS) -c Functions2.cc -o Functions2.o
+	g++ $(FLAGS) -c Functions2.cpp -o Functions2.o
 
 build:
 	g++ $(FLAGS) Functions2.o -o Functions2

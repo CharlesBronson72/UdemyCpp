@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Victor/Library/CloudStorage/OneDrive-Persönlich/Dev/C++/UdemyCpp-master/02_Basics/2_1",
+      "program": "/Users/Victor/Library/CloudStorage/OneDrive-Persönlich/Dev/C++/UdemyCpp-master/02_Basics/2_1/build/Debug/outDebug"
+    }
+  ]
+}
